@@ -10,9 +10,12 @@
             "request": "attach",
             "processId": "${command:pickProcess}",
             "justMyCode":false,
-            "symbolOptions": {
-                "searchMicrosoftSymbolServer": true
-          },
+            // "sourceFileMap": {
+            //     "C:/Users/asanklecha/dotapp/DatingApp.API/obj/Debug/netcoreapp3.0": "C:/Users/asanklecha/dotapp/DatingApp.API/obj/Debug/netcoreapp3.0"
+            // },
+        //     "symbolOptions": {
+        //         "searchMicrosoftSymbolServer": true
+        //   },
           "logging": {
             "moduleLoad": false
         },
